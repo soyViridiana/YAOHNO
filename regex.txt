@@ -1,0 +1,11 @@
+EXPRESIONES REGULARES
+
+
+CORREO ELECTRONICO
+/[\w-\.]{2,}@([\w-2]{2,}\.)*([\w-]{2,}\)[\w-]{2,4}/
+
+PASSWORD MAYUSCULAS, MINUSCULAS NUMERO Y MIN 8 CARACTERES
+/^(?=\w*\d) (?=\w*[A-Z])(?-\w*[a-z])\s{8,16}$/
+
+NOMBRE
+/^([a-z ñáéíóú]{2,60})$/i
